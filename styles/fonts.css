@@ -1,0 +1,39 @@
+/* 
+  font-weight
+	300 - light
+  400 - regular
+  500 - medium
+  700 - bold
+  700 - black
+*/
+
+/* NotoSans */
+@font-face {
+	font-family: 'NotoSansKR';
+	font-weight: 300;
+	src: url('/fonts/NotoSansLight.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'NotoSansKR';
+	font-weight: 400;
+	src: url('/fonts/NotoSansRegular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'NotoSansKR';
+	font-weight: 500;
+	src: url('/fonts/NotoSansMedium.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'NotoSansKR';
+	font-weight: 700;
+	src: url('/fonts/NotoSansBold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'NotoSansKR';
+	font-weight: 900;
+	src: url('/fonts/NotoSansBlack.ttf') format('truetype');
+}
