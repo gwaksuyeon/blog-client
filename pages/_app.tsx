@@ -7,11 +7,12 @@ import 'styles/globals.css';
 import 'styles/fonts.css';
 
 function MyApp({ Component, pageProps }: AppProps) {
-	return;
-	<ThemeProvider theme={styles}>
-		<RecoilRoot>
-			<Component {...pageProps} />;
-		</RecoilRoot>
-	</ThemeProvider>;
+	return (
+		<ThemeProvider theme={styles}>
+			<RecoilRoot>
+				<Component {...pageProps} />;
+			</RecoilRoot>
+		</ThemeProvider>
+	);
 }
 export default MyApp;
